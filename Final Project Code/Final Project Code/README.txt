@@ -21,3 +21,5 @@ This will print the IDs of the five most relevant documents to the query to stan
 When the flag is not passed, all the queries in the Cranfield dataset are considered and precision@k, recall@k, f-score@k, nDCG@k and the Mean Average Precision are computed.
 
 In both the cases, *queries.txt files and *docs.txt files will be generated in the OUTPUT FOLDER after each stage of preprocessing of the documents and queries.
+
+We also have a hypothesis testing code that perfoms all the required statistical tests and the results are concluded based on appropriate confidence intervals. 
